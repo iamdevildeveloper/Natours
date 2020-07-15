@@ -16,6 +16,7 @@ const bookingRouter = require(`./routes/bookingRoutes`);
 const AppError = require('./utlis/appError');
 const ErrorController = require('./controllers/errorController');
 
+// Start express app
 const app = express();
 
 // Pug
